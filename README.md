@@ -9,7 +9,7 @@ The program consisting of two parts (A and B) that uses skillful implementation 
 Part A: Implements and tests the ability to perform operations on the tree.
 
 Part B: Implements a Polish-English dictionary consisting of two BSTs (Polish BST and English BST), in which each node from one tree is linked with the corresponding node from the other tree. The program has the ability to perform tasks such as:
-* writing out English (Polish) words with translations in the KLP order (to a file),
+* writing out English (Polish) words with translations in the pre-order (NLR) to a file,
 * finding a Polish (English) word with a translation,
 * adding a new word with translation,
 * removing a word with its translation.
@@ -27,4 +27,9 @@ To learn more about how the algorithm works: [Knapsack problem Wikipedia](https:
 ### Kruskal's Algorithm
 The program implements a greedy algorithm for finding a minimum spanning tree (MST) which connects together all the vertices of a connected and undirected graph.
 
-To learn more about how the algorithm works: [Kruskal's algorithm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm).
+To learn more about how the algorithm works: [Kruskal's algorithm Wikipedia](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm).
+
+### DFS
+The program implements a Depth First Search algorithm for traversing or searching a graph or tree data structure. Starting at the root node of a tree it explores as far down as possible along each branch before backtracking. It is also checked whether the given undirected graph (without cycles) is connected.
+
+To learn more about how the algorithm works: [Depth-first search Wikipedia](https://en.wikipedia.org/wiki/Depth-first_search).
